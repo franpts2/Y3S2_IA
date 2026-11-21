@@ -1,14 +1,42 @@
-# Y3S2 - IA (Artifial Intelligence)
+# Y3S2 — IA
 
-This repository contains my own implementation (as a student) of solutions and code for worksheets in the context of the Artificial Intelligence course at FEUP (Faculdade de Engenharia da Universidade do Porto).
+Artificial Intelligence worksheets at FEUP: search, problem formulation, and Python notebooks.
 
-Here you will find:
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python">
+  <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter">
+</p>
 
-- Python notebooks and scripts for AI exercises
-- Implementations of search algorithms and problem-solving techniques
-- Explanations and step-by-step solutions to worksheet problems
+## About
 
+This repository contains my solutions to the Artificial Intelligence worksheets at FEUP.
+The notebooks cover search problem formulation, informed search, and the reasoning behind
+each solution.
+
+## Contents
+
+| Notebook | Topic |
+| --- | --- |
+| `AI1_search-formulation.ipynb` | Search problem formulation |
+| `AI2_informed-search_to-complete.ipynb` | Informed search |
+
+## Quick Start
+
+Requirements: Python 3.10+ and Jupyter.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install jupyter
+jupyter lab
+```
+
+Open the notebook you want to run.
+
+## License
+
+Coursework submitted at FEUP. Shared for reference; all rights reserved unless stated otherwise.
 
 ---
 
-_These exercises were done solely by Francisca Portugal from February to June 2026._
+_IA — search, reason, repeat._
